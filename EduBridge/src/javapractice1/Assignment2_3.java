@@ -24,6 +24,7 @@ public class Assignment2_3
         System.out.print("Enter the First Student Marks3: ");
         int s1Marks3 = reader.nextInt();
         
+        reader.nextLine();
         System.out.print("Enter the Second Student Name: ");
         String s2Name = reader.nextLine();
         System.out.print("Enter the Second Student Roll Number: ");
@@ -35,6 +36,7 @@ public class Assignment2_3
         System.out.print("Enter the Second Student Marks3: ");
         int s2Marks3 = reader.nextInt();
         
+        reader.nextLine();
         System.out.print("Enter the Third Student Name: ");
         String s3Name = reader.nextLine();
         System.out.print("Enter the Third Student Roll Number: ");
