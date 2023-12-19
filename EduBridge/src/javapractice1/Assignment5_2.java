@@ -27,9 +27,12 @@ public class Assignment5_2
 	{
 		double res;
 		A obj = new A();
-		System.out.println(res= obj.integer(33, 65));
-		System.out.println(res=obj.integer(2, 3, 4));
-		System.out.println(res=obj.integer(100, 3.0));
+		res= obj.integer(33, 65);
+		System.out.println(res);
+		res=obj.integer(2, 3, 4);
+		System.out.println(res);
+		res=obj.integer(100, 3.0);
+		System.out.println(res);
 
 	}
 
